@@ -85,9 +85,13 @@ Observation:
 2. Verify terraform.tfstate file and resource group info should be removed
 3. Verify terraform.tfstate.backup, it should have the resource group info here stored as backup. 
 
-# Delete Terraform files 
+# Delete Terraform files -rf means recursively force delete the given directory, and powershell needs two subcommands to realise the same functions
+#git bash
 rm -rf .terraform*
 rm -rf terraform.tfstate*
+#Powershell in Windows
+rm -r -fo .terraform*
+rm -r -fo terraform.tfstate*
 ```
 
 ## Step-08: Conclusion
