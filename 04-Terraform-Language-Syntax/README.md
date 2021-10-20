@@ -24,6 +24,8 @@ description: Learn Terraform Configuration Language Syntax like Blocks, Argument
   # Block body
   <IDENTIFIER> = <EXPRESSION> # Argument
 }
+Example:
+Resources: 'resource_type.resource_name.attribute_name'
 
 # Azure Example
 # Create a resource group
