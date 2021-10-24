@@ -3,7 +3,8 @@
 terraform {
   required_version = ">= 1.0.0"
   required_providers {
-    azurerm = {
+    azurerm = {               # This name should be the same with block 2 but 
+                              # usualy uses the <type> in source part
       source = "hashicorp/azurerm"
       version = ">= 2.0"
     }
