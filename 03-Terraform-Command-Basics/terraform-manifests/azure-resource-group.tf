@@ -17,7 +17,7 @@ provider "azurerm" {
 # Create Resource Group 
 resource "azurerm_resource_group" "my_demo_rg1" {
   location = "Australia East"
-  name = "my-demo-rg1"  
+  name = "my-demo"  
   tags = {
    Owner = "cassie.liu@servian.com"
    Client = "Servian"
